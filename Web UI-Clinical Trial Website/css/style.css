@@ -4,6 +4,7 @@
 	padding:0;
 }
 body{
+	overflow-x:hidden;
 	position:relative;
 	margin:0;
 	padding:0;
@@ -407,7 +408,9 @@ footer button{
 	#boxes1{
 		margin-top:10px;
 	}
-
+	#carousel .item img{
+		width:30%;
+	}
 	#caption_p img,p{
 		width:100%;
 		margin:10px 10px 0px;
